@@ -1,8 +1,6 @@
 # Hello-World
 
-## 没有车，没有房，有一颗爱你的心。java，爱你。
-
-这是我github上的java code (包含24种编程语言)
+这是我github上的first java code (24种编程语言写hello world)
 
 01. Java
 
@@ -55,7 +53,7 @@ int main()                #main 入口函数
 
 D:\HelloWorld>gcc HelloWorld.c -o output   #文件名 HelloWorld.c，-o 输出文件名 output  
 HelloWorld.c:6:2: warning: no newline at end of file  
-  
+
 D:\HelloWorld>output                       #直接运行输出文件               
 Hello,World!
 
@@ -77,7 +75,7 @@ Hello,World!
 
 #include <iostream>               //std::cout 要用到的头文件  
 #include <stdio.h>                //标准输入输出头文件  
-  
+
 int main()  
 {  
   printf("Hello,World!--Way 1\n");    //printf 语句打印  
@@ -90,7 +88,7 @@ int main()
 说明：
 
 D:\HelloWorld>g++ HelloWorld.c++ -o output   //源文件后缀也可为 .cpp、.C  
-  
+
 D:\HelloWorld>output  
 Hello,World!--Way 1  
 Hello,World!--Way 2  
@@ -143,7 +141,7 @@ d:\HelloWorld>csc HelloWorld.cs
 Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.4927  
 for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727  
 Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.  
-  
+
 d:\HelloWorld>HelloWorld.exe  
 Hello,World!  
 
@@ -235,19 +233,19 @@ Hello,World!
 环境：R-3.1.2-win（适用于32、64位），分别有相应的 GUI
 
 C:\>R                  #安装好了之后，输入 R 后显示  
-  
+
 R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"  
 Copyright (C) 2014 The R Foundation for Statistical Computing  
 Platform: i386-w64-mingw32/i386 (32-bit)  
-  
+
 R  
-  
+
 'license()''licence()'  
-  
+
 R.  
 'contributors()'  
 'citation()'RR  
-  
+
 'demo()''help()'  
 'help.start()'HTML  
 'q()'R.  
@@ -270,7 +268,7 @@ http://www.jb51.net/os/RedHat/335436.html
 代码：
 
 SQL> select 'Hello,World!' from dual;  
-  
+
 'HELLO,WORLD  
 ------------  
 Hello,World!  
@@ -284,10 +282,10 @@ INSERT INTO MESSAGE (TEXT) VALUES ('Hello, world!');  #插入表
 SELECT TEXT FROM MESSAGE;                             #查询表  
 DROP TABLE MESSAGE;                                   #删除表               
 Table created.  
-  
+
 SQL>  
 1 row created.  
-  
+
 SQL>  
 TEXT  
 ---------------  
@@ -300,18 +298,18 @@ Hello, world!
 下载 URL：http://www.activestate.com/activeperl/downloads
 
 D:\HelloWorld>perl -v  
-  
+
 This is perl 5, version 16, subversion 3 (v5.16.3) built for MSWin32-x86-multi-thread  
 (with 1 registered patch, see perl -V for more detail)  
-  
+
 Copyright 1987-2012, Larry Wall  
-  
+
 Binary build 1603 [296746] provided by ActiveState http://www.ActiveState.com  
 Built Mar 13 2013 11:29:21  
-  
+
 Perl may be copied only under the terms of either the Artistic License or the  
 GNU General Public License, which may be found in the Perl 5 source kit.  
-  
+
 Complete documentation for Perl, including FAQ lists, should be found on  
 this system using "man perl" or "perldoc perl".  If you have access to the  
 Internet, point your browser at http://www.perl.org/, the Perl Home Page. 
@@ -359,7 +357,7 @@ D:\Learn\C>vbc -v
 Microsoft (R) Visual Basic Compiler version 8.0.50727.5483  
 for Microsoft (R) .NET Framework version 2.0.50727.5485  
 Copyright (c) Microsoft Corporation.  All rights reserved.  
-  
+
 vbc : Command line warning BC2007 : unrecognized option 'v'; ignored  
 vbc : Command line error BC2008 : no input sources specified  
 
@@ -388,7 +386,7 @@ d:\>scala
 Welcome to Scala version 2.11.4 (Java HotSpot(TM) Client VM, Java 1.7.0_51).  
 Type in expressions to have them evaluated.  
 Type :help for more information.  
-  
+
 scala> println("Hello,World!");   #可在交互式界面执行 println 语句，很像 java  
 Hello,World!  
 
@@ -441,12 +439,12 @@ procedure TForm1.Button1Click(Sender: TObject);
 begin  
   label1.Caption := 'Hello,World!';  
 end;  
-  
+
 procedure TForm1.FormCreate(Sender: TObject);  
 begin  
-  
+
 end;  
-  
+
 end.  
 
 说明：
@@ -530,9 +528,9 @@ Visual FoxPro 原名 FoxBase，最初是由美国 Fox Software 公司于 1988 �
 d:\HelloWorld>gnat  
 GNAT 4.8.1  
 Copyright 1996-2013, Free Software Foundation, Inc.  
-  
+
 List of available commands  
-  
+
 gnat bind               gnatbind  
 gnat chop               gnatchop  
 gnat clean              gnatclean  
@@ -648,4 +646,4 @@ IEEE Spectrum 根据十多个数据来源，对各大编程语言的使用普及
     ActionScript
 
 以上统计数据分别来自 Google 搜索结果、Google 趋势分析、推特、GitHub 库、StackOverflow 问答、Reddit 文章、Hacker News、Career Builder、ice job 以及 IEEE 期刊论文等。
- 
+
